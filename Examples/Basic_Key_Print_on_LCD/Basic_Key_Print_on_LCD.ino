@@ -26,7 +26,7 @@ void setup() {
   lcd.begin(16, 2);
   lcd.display();
   lcd.clear();
-  lcd.setCursor(0,0); lcd.print("Compact Nano Brd");
+  lcd.setCursor(0,0); lcd.print("Extended Nano ");
   lcd.setCursor(0,1); 
   lcd.print("Key : ");
 }
