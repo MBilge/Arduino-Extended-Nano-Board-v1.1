@@ -1,4 +1,4 @@
-#include <Wire.h>
+e#include <Wire.h>
 #include "Keypad_I2C.h"
 
 #define I2CADDR 0x27
@@ -20,7 +20,7 @@ Keypad_I2C keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS,I2CADDR);
 void setup() {
   Serial.begin(9600);
   keypad.begin( );
-  Serial.print("Compact Nano Board v1.0 Key Reading Test...");
+  Serial.println("Extended Nano Board v1.0 Key Reading Test...");
 }
 
 
